@@ -1,5 +1,4 @@
 body {
-  padding: 20px 20px 20px 20px;
 	font-family: helvetica;
   font-size: 18px;
   line-height: 1.5;
@@ -9,17 +8,31 @@ h1 {
   font-weight: 700;
 }
 a {
-  text-decoration: underline;
+  background-color: red;
+  font-size: 20px;
 }
-a.hover{
+a.hover {
   
 }
+
 header {
   padding: 0 0 0 0;
 }
-section {
-  padding: 20px 0 0 0;
+div {
+  padding: 32px 32px 32px 32px;
 }
-footer{
-  padding: 20px 0 0 0;
+div.header {
+
+}
+div.intro {
+}
+div.footer{
+}
+p {
+  font-size: 20px
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 100px;
+  }
 }
